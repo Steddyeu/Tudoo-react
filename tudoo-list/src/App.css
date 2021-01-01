@@ -1,3 +1,46 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+body {
+  background-color: rgb(133, 148, 235);
+  font-family: "Rubik", sans-serif;
+}
+
+.form1 {
+  background-color: crimson;
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+  border-radius: 3%;
+}
+
+#todo-form input {
+  color: aliceblue;
+  background-color: rgb(94, 84, 84);
+  border: 0;
+  width: 200px;
+  height: 30px;
+  padding: 0 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+#todo-form input::placeholder {
+  color: aquamarine;
+}
+
+#todo-form input:focus, #todo-form button:focus {
+  outline: none;
+}
+
+#submit-btn {
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  border: 0;
+  background-color: bisque;
+  cursor: pointer;
+}
+
+#submit-btn:hover{
+  background-color: burlywood;
 }
