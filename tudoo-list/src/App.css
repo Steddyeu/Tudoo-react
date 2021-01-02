@@ -1,8 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 
 body {
+  text-align: center;
   background-color: rgb(133, 148, 235);
   font-family: "Rubik", sans-serif;
+}
+
+.header{
+color: aquamarine;
+font-weight: 900;
 }
 
 .form1 {
@@ -43,4 +49,41 @@ body {
 
 #submit-btn:hover{
   background-color: burlywood;
+}
+
+
+/* LISTITEMS */
+
+.list {
+  text-align: left;
+  color:white;
+  width: 300px;
+  background-color: rgb(71, 9, 22);
+  height: 50px;
+  margin: 20px auto;
+  border-radius: 6px;
+
+}
+
+.list p {
+  padding: 10px;
+  position: relative;
+}
+
+.list p span {
+  position: absolute;
+  right:10px;
+  margin: 3px 5px;
+cursor: pointer;
+}
+
+.list p input{
+  background-color: transparent;
+  border: 0;
+  color: white;
+  font-size: 18px;
+}
+
+.list p input:focus{
+  outline: none;
 }
